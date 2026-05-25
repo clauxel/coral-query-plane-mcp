@@ -1,0 +1,25 @@
+{
+  "error": "Error: server card fetch failed 522",
+  "fallback": {
+    "slug": "coralquery",
+    "name": "Coral Query Plane",
+    "website": "https://coralquery.clauxel.com/",
+    "endpoint": "https://coralquery.clauxel.com/mcp",
+    "serverCard": "https://coralquery.clauxel.com/.well-known/mcp/server-card.json",
+    "registryName": "com.clauxel.coralquery/coralquery-mcp",
+    "tools": [
+      "source_list",
+      "query_run",
+      "schema_preview",
+      "result_receipt"
+    ],
+    "docsRepo": "coral-query-plane-mcp",
+    "docs": "https://github.com/clauxel/coral-query-plane-mcp",
+    "packageName": "@clauxel/coralquery-mcp",
+    "directoryName": "coralquery-mcp",
+    "category": "Developer Tools",
+    "tagline": "Hosted MCP for AI SDK data query MCP.",
+    "description": "Coral Query Plane is a paid remote MCP endpoint for AI SDK data query MCP. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.",
+    "icon": "https://coralquery.clauxel.com/favicon.svg"
+  }
+}
