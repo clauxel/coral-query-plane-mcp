@@ -1,15 +1,12 @@
 # Coral Query Plane
 
-Coral Query Plane is a hosted remote MCP for AI SDK data query MCP.
+Coral Query Plane is a paid remote MCP endpoint for AI SDK data query MCP. It exposes structured JSON tools, a public server card, token-based access, usage receipts, and audit-ready workflow evidence for AI agents and coding teams.
 
 Website: https://coralquery.clauxel.com/
-Docs pattern reference: https://github.com/clauxel/MiroFish
-Primary keyword: AI SDK data query MCP
-Type: MCP
-Default plan: team
 MCP endpoint: https://coralquery.clauxel.com/mcp
-Server card: https://coralquery.clauxel.com/server-card.json
-Registry name: com.clauxel.coralquery/coralquery-mcp
-Tools: source_list, query_run, schema_preview, result_receipt
+Server card: https://coralquery.clauxel.com/.well-known/mcp/server-card.json
+Docs: https://github.com/clauxel/coral-query-plane-mcp
 
-Public boundary: docs-only repository; no production source code or secrets.
+Use case: Hosted MCP for AI SDK data query MCP.
+Authentication: Bearer token required for production use.
+Tools: source_list, query_run, schema_preview, result_receipt
