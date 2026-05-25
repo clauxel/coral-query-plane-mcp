@@ -1,0 +1,15 @@
+# Coral Query Plane
+
+Coral Query Plane is a hosted remote MCP for AI SDK data query MCP.
+
+Website: https://coralquery.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: AI SDK data query MCP
+Type: MCP
+Default plan: team
+MCP endpoint: https://coralquery.clauxel.com/mcp
+Server card: https://coralquery.clauxel.com/server-card.json
+Registry name: com.clauxel.coralquery/coralquery-mcp
+Tools: source_list, query_run, schema_preview, result_receipt
+
+Public boundary: docs-only repository; no production source code or secrets.
